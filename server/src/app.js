@@ -14,5 +14,5 @@ app.get('/status', (req, res) => {
     message: 'hello world!'
   })
 })
-// process.env.PORT ||
-app.listen(8081)
+
+app.listen(process.env.PORT || 8081)
