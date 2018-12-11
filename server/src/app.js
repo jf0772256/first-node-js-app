@@ -16,9 +16,9 @@ app.get('/status', (req, res) => {
 })
 
 app.post('/register', (req, res) => {
-    res.send({
-        message: 'Hello ${req.body.email}! Your account has been established! Have lots of fun!'
-    })
+  res.send({
+    message: `Hello ${req.body.email}! Your account has been established! Have lots of fun!`
+  })
 })
 
 app.listen(process.env.PORT || 8081)
