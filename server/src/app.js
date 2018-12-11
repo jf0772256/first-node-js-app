@@ -17,7 +17,7 @@ app.get('/status', (req, res) => {
 
 app.post('/register', (req, res) => {
   res.send({
-    message: `Hello ${req.body.email}! Your account has been established! Have lots of fun!`
+    message: `Hello ${req.body.name}! Your username is ${req.body.email}. Your account has been established! Have lots of fun!`
   })
 })
 
