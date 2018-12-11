@@ -8,7 +8,7 @@ export default {
 }
 
 // testing
-AuthenticationService.register({
-  email:"jessefender@jessefender.com",
-  password:"mysupersecretpassword"
-})
+// AuthenticationService.register({
+//   email:"jessefender@jessefender.com",
+//   password:"mysupersecretpassword"
+// })
