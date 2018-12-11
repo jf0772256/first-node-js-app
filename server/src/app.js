@@ -10,7 +10,9 @@ app.use(bodyParser.json())
 app.use(cors())
 
 app.get('/status', (req, res) => {
-  res.send('hello world!')
+  res.send({
+    message: 'hello world!'
+  })
 })
 // process.env.PORT ||
 app.listen(8081)
